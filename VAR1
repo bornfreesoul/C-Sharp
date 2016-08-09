@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication_Variables1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Integer Variable Example!
+            Console.WriteLine("*** Welcome to the integer variable example application! ***");
+            Console.WriteLine();
+            int x = 5;
+            Console.WriteLine("The value of 'x' is: 5");
+            int y = x + 8;
+            Console.WriteLine();
+            Console.WriteLine("The value of 'y' is x + 8: "+ y);
+            Console.WriteLine();
+
+            // Decimal Variable Example!
+            Console.WriteLine("*** Welcome to the double variable example application! ***");
+            Console.WriteLine();
+            double a = 5.1;
+            Console.WriteLine("The value of 'a' is: 5.1");
+            double b = a + 8.1;
+            Console.WriteLine();
+            Console.WriteLine("The value of 'b' is a + 8.1: " + b);
+            Console.WriteLine();
+            Console.WriteLine("==========================================================================");
+            Console.WriteLine();
+
+            // String Variable Example!
+            Console.WriteLine("*** Welcome to the string variable example application! ***");
+            Console.WriteLine();
+            string myString1 = "Testing";
+            Console.WriteLine("The value of 'myString1' is: 'Testing'");
+            string myString2 = myString1 + "-mines.blogspot.in";
+            Console.WriteLine();
+            Console.WriteLine("The value of 'myString2' is myString1 + myString2: " + myString2);
+            Console.WriteLine();
+            Console.WriteLine("==========================================================================");
+            Console.WriteLine();
+
+            // Int and String Conversion Example!
+            Console.WriteLine("*** Welcome to the int & string variable conversion example application! ***");
+            Console.WriteLine();
+            int z = 1;
+            Console.WriteLine("The value of 'z' is: 1");
+            string myString3 = "kingsman.co.in";
+            Console.WriteLine("The value of 'myString3' is: 'kingsman.co.in'");
+            Console.WriteLine();
+            string myString4 = z.ToString() + myString3; //ToString method help to convert int variable into string variable.
+            Console.WriteLine("The value of 'myString4' is z + myString3: " + myString4);
+            Console.ReadLine();
+        }
+    }
+}
